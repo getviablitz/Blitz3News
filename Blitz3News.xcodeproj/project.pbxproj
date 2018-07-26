@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27A6E6642109DD1E00550D3C /* Default-375w-667h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A6E65F2109DD1D00550D3C /* Default-375w-667h@2x~iphone.png */; };
+		27A6E6652109DD1E00550D3C /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A6E6602109DD1D00550D3C /* Default-568h@2x~iphone.png */; };
+		27A6E6662109DD1E00550D3C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A6E6612109DD1D00550D3C /* 1.png */; };
+		27A6E6672109DD1E00550D3C /* Default-414w-736h@3x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A6E6622109DD1D00550D3C /* Default-414w-736h@3x~iphone.png */; };
+		27A6E6682109DD1E00550D3C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A6E6632109DD1E00550D3C /* Default.png */; };
 		27AEFA9E21098CAA003F1847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEFA9D21098CAA003F1847 /* AppDelegate.swift */; };
 		27AEFAA021098CAA003F1847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEFA9F21098CAA003F1847 /* ViewController.swift */; };
 		27AEFAA321098CAA003F1847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AEFAA121098CAA003F1847 /* Main.storyboard */; };
@@ -31,15 +36,15 @@
 		27AEFAF521099CA5003F1847 /* google+.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AEFAE721099CA4003F1847 /* google+.png */; };
 		27AEFAF621099CA5003F1847 /* fb11.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AEFAE821099CA4003F1847 /* fb11.png */; };
 		27AEFAF921099CCA003F1847 /* ListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEFAF821099CCA003F1847 /* ListObject.swift */; };
-		27AEFB332109BD24003F1847 /* Default-414w-736h@3x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AEFB2E2109BD23003F1847 /* Default-414w-736h@3x~iphone.png */; };
-		27AEFB342109BD24003F1847 /* Default-375w-667h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AEFB2F2109BD24003F1847 /* Default-375w-667h@2x~iphone.png */; };
-		27AEFB352109BD24003F1847 /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AEFB302109BD24003F1847 /* Default-568h@2x~iphone.png */; };
-		27AEFB362109BD24003F1847 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AEFB312109BD24003F1847 /* Default.png */; };
-		27AEFB372109BD24003F1847 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AEFB322109BD24003F1847 /* 1.png */; };
 		FAE55D86F58A3C4273E2992F /* Pods_Blitz3News.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F4C3459E9DD879F87E5D52 /* Pods_Blitz3News.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27A6E65F2109DD1D00550D3C /* Default-375w-667h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-375w-667h@2x~iphone.png"; sourceTree = "<group>"; };
+		27A6E6602109DD1D00550D3C /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		27A6E6612109DD1D00550D3C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		27A6E6622109DD1D00550D3C /* Default-414w-736h@3x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-414w-736h@3x~iphone.png"; sourceTree = "<group>"; };
+		27A6E6632109DD1E00550D3C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		27AEFA9A21098CAA003F1847 /* Blitz3News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blitz3News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AEFA9D21098CAA003F1847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27AEFA9F21098CAA003F1847 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,11 +71,6 @@
 		27AEFAE721099CA4003F1847 /* google+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google+.png"; sourceTree = "<group>"; };
 		27AEFAE821099CA4003F1847 /* fb11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb11.png; sourceTree = "<group>"; };
 		27AEFAF821099CCA003F1847 /* ListObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListObject.swift; sourceTree = "<group>"; };
-		27AEFB2E2109BD23003F1847 /* Default-414w-736h@3x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-414w-736h@3x~iphone.png"; sourceTree = "<group>"; };
-		27AEFB2F2109BD24003F1847 /* Default-375w-667h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-375w-667h@2x~iphone.png"; sourceTree = "<group>"; };
-		27AEFB302109BD24003F1847 /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
-		27AEFB312109BD24003F1847 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		27AEFB322109BD24003F1847 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		F6E1A0C118AEDDA12DAE70CE /* Pods-Blitz3News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blitz3News.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blitz3News/Pods-Blitz3News.release.xcconfig"; sourceTree = "<group>"; };
 		F6F4C3459E9DD879F87E5D52 /* Pods_Blitz3News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blitz3News.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA9471B23B8FA5AE6081024 /* Pods-Blitz3News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blitz3News.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blitz3News/Pods-Blitz3News.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,11 +147,11 @@
 		27AEFADA21099C85003F1847 /* SplashScreens */ = {
 			isa = PBXGroup;
 			children = (
-				27AEFB322109BD24003F1847 /* 1.png */,
-				27AEFB2F2109BD24003F1847 /* Default-375w-667h@2x~iphone.png */,
-				27AEFB2E2109BD23003F1847 /* Default-414w-736h@3x~iphone.png */,
-				27AEFB302109BD24003F1847 /* Default-568h@2x~iphone.png */,
-				27AEFB312109BD24003F1847 /* Default.png */,
+				27A6E6612109DD1D00550D3C /* 1.png */,
+				27A6E65F2109DD1D00550D3C /* Default-375w-667h@2x~iphone.png */,
+				27A6E6622109DD1D00550D3C /* Default-414w-736h@3x~iphone.png */,
+				27A6E6602109DD1D00550D3C /* Default-568h@2x~iphone.png */,
+				27A6E6632109DD1E00550D3C /* Default.png */,
 			);
 			path = SplashScreens;
 			sourceTree = "<group>";
@@ -253,27 +253,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				27AEFAF421099CA5003F1847 /* backarrow.png in Resources */,
-				27AEFB352109BD24003F1847 /* Default-568h@2x~iphone.png in Resources */,
 				27AEFAF221099CA5003F1847 /* go.png in Resources */,
 				27AEFAED21099CA5003F1847 /* uncheckpref.png in Resources */,
-				27AEFB362109BD24003F1847 /* Default.png in Resources */,
 				27AEFAE921099CA5003F1847 /* tw11.png in Resources */,
 				27AEFAF321099CA5003F1847 /* expand.png in Resources */,
-				27AEFB342109BD24003F1847 /* Default-375w-667h@2x~iphone.png in Resources */,
 				27AEFAF021099CA5003F1847 /* linkin.png in Resources */,
 				27AEFAF521099CA5003F1847 /* google+.png in Resources */,
 				27AEFAEA21099CA5003F1847 /* quora.png in Resources */,
-				27AEFB372109BD24003F1847 /* 1.png in Resources */,
 				27AEFAEB21099CA5003F1847 /* menu.png in Resources */,
-				27AEFB332109BD24003F1847 /* Default-414w-736h@3x~iphone.png in Resources */,
+				27A6E6672109DD1E00550D3C /* Default-414w-736h@3x~iphone.png in Resources */,
+				27A6E6662109DD1E00550D3C /* 1.png in Resources */,
 				27AEFAAB21098CAA003F1847 /* LaunchScreen.storyboard in Resources */,
 				27AEFAEC21099CA5003F1847 /* checkpref.png in Resources */,
 				27AEFAA821098CAA003F1847 /* Assets.xcassets in Resources */,
 				27AEFAA321098CAA003F1847 /* Main.storyboard in Resources */,
+				27A6E6652109DD1E00550D3C /* Default-568h@2x~iphone.png in Resources */,
+				27A6E6642109DD1E00550D3C /* Default-375w-667h@2x~iphone.png in Resources */,
 				27AEFAEE21099CA5003F1847 /* blitzViewClose.png in Resources */,
 				27AEFAF621099CA5003F1847 /* fb11.png in Resources */,
 				27AEFAEF21099CA5003F1847 /* inst11.png in Resources */,
 				27AEFAF121099CA5003F1847 /* default.png in Resources */,
+				27A6E6682109DD1E00550D3C /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
