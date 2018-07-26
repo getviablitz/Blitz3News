@@ -13,7 +13,7 @@
         <!--Land Scape View Controller-->
         <scene sceneID="mCs-Qb-hkK">
             <objects>
-                <viewController storyboardIdentifier="LSMId" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zm9-sd-6Vq" customClass="LandScapeViewController" customModule="Blitz3Social" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LSMId" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zm9-sd-6Vq" customClass="LandScapeViewController" customModule="Blitz3News" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QWG-2k-mOR"/>
                         <viewControllerLayoutGuide type="bottom" id="OkP-WQ-KcI"/>
@@ -22,95 +22,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XeS-Qv-Op7">
-                                <rect key="frame" x="0.0" y="20" width="126" height="49"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Z1-ft-Pvq">
-                                        <rect key="frame" x="2" y="8" width="30" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="30" id="JLH-1x-hwc"/>
-                                        </constraints>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgb-kD-h4t">
-                                        <rect key="frame" x="88" y="8" width="30" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="30" id="rOs-Wz-hfG"/>
-                                        </constraints>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="hgb-kD-h4t" firstAttribute="trailing" secondItem="XeS-Qv-Op7" secondAttribute="trailingMargin" id="295-RM-QA2"/>
-                                    <constraint firstItem="9Z1-ft-Pvq" firstAttribute="leading" secondItem="XeS-Qv-Op7" secondAttribute="leading" constant="2" id="DgB-aU-Dkp"/>
-                                    <constraint firstAttribute="bottom" secondItem="hgb-kD-h4t" secondAttribute="bottom" constant="11" id="EHT-um-CnS"/>
-                                    <constraint firstItem="9Z1-ft-Pvq" firstAttribute="bottom" secondItem="hgb-kD-h4t" secondAttribute="bottom" id="mBw-08-OhR"/>
-                                    <constraint firstItem="9Z1-ft-Pvq" firstAttribute="top" secondItem="hgb-kD-h4t" secondAttribute="top" id="xjP-HL-Ddl"/>
-                                    <constraint firstItem="hgb-kD-h4t" firstAttribute="top" secondItem="XeS-Qv-Op7" secondAttribute="topMargin" id="xvq-QQ-bcz"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t0z-3m-860">
-                                <rect key="frame" x="126" y="20" width="126" height="49"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Zw-HW-2dY">
-                                        <rect key="frame" x="2" y="8" width="30" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="30" id="dkS-i9-g9Z"/>
-                                        </constraints>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fb-0I-iPS">
-                                        <rect key="frame" x="88" y="8" width="30" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="30" id="TYL-ab-DZ3"/>
-                                        </constraints>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="5fb-0I-iPS" firstAttribute="trailing" secondItem="t0z-3m-860" secondAttribute="trailingMargin" id="GWe-7f-kvO"/>
-                                    <constraint firstItem="7Zw-HW-2dY" firstAttribute="bottom" secondItem="5fb-0I-iPS" secondAttribute="bottom" id="bw0-de-98q"/>
-                                    <constraint firstItem="7Zw-HW-2dY" firstAttribute="leading" secondItem="t0z-3m-860" secondAttribute="leading" constant="2" id="fe7-QY-BfG"/>
-                                    <constraint firstItem="7Zw-HW-2dY" firstAttribute="top" secondItem="5fb-0I-iPS" secondAttribute="top" id="iX5-ND-JX6"/>
-                                    <constraint firstItem="5fb-0I-iPS" firstAttribute="top" secondItem="t0z-3m-860" secondAttribute="topMargin" id="ogV-xD-j5A"/>
-                                    <constraint firstAttribute="bottom" secondItem="5fb-0I-iPS" secondAttribute="bottom" constant="11" id="tS8-7m-KGt"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="22Y-6I-QSc">
-                                <rect key="frame" x="249" y="20" width="126" height="49"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSy-vv-Efd">
-                                        <rect key="frame" x="2" y="8" width="30" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="30" id="Oh4-vf-R8a"/>
-                                        </constraints>
-                                        <state key="normal">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EV2-5d-xtQ">
-                                        <rect key="frame" x="69.5" y="8" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DI9-05-syG">
-                                <rect key="frame" x="0.0" y="68" width="105.5" height="412"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yU6-dn-Ncd">
-                                <rect key="frame" x="107" y="68" width="105" height="412"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HwA-UA-U39">
-                                <rect key="frame" x="214.5" y="68" width="105.5" height="412"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="93k-to-ahK">
                                 <rect key="frame" x="1" y="20" width="374" height="647"/>
                                 <subviews>
@@ -140,36 +51,12 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="93k-to-ahK" firstAttribute="leading" secondItem="IJ7-IB-4Pj" secondAttribute="leading" constant="1" id="1lJ-Xw-6w4"/>
-                            <constraint firstItem="yU6-dn-Ncd" firstAttribute="centerX" secondItem="IJ7-IB-4Pj" secondAttribute="centerX" id="346-8f-IZZ"/>
-                            <constraint firstItem="yU6-dn-Ncd" firstAttribute="top" secondItem="t0z-3m-860" secondAttribute="bottom" constant="-1" id="4RY-4f-BCj"/>
-                            <constraint firstItem="HwA-UA-U39" firstAttribute="top" secondItem="DI9-05-syG" secondAttribute="top" id="5gK-E2-tMw"/>
                             <constraint firstAttribute="trailing" secondItem="93k-to-ahK" secondAttribute="trailing" id="6QG-PK-WLI"/>
-                            <constraint firstItem="OkP-WQ-KcI" firstAttribute="top" secondItem="yU6-dn-Ncd" secondAttribute="bottom" id="JVm-K9-Z0B"/>
-                            <constraint firstItem="HwA-UA-U39" firstAttribute="centerX" secondItem="22Y-6I-QSc" secondAttribute="centerX" id="Jdg-BE-hLV"/>
-                            <constraint firstItem="OkP-WQ-KcI" firstAttribute="top" secondItem="DI9-05-syG" secondAttribute="bottom" id="OIB-aI-Ji4"/>
-                            <constraint firstItem="yU6-dn-Ncd" firstAttribute="leading" secondItem="DI9-05-syG" secondAttribute="trailing" constant="2" id="Pdg-9X-8eo"/>
-                            <constraint firstItem="OkP-WQ-KcI" firstAttribute="top" secondItem="HwA-UA-U39" secondAttribute="bottom" id="PnQ-yr-2bv"/>
-                            <constraint firstItem="t0z-3m-860" firstAttribute="width" secondItem="22Y-6I-QSc" secondAttribute="width" id="R4E-lS-p8o"/>
                             <constraint firstItem="93k-to-ahK" firstAttribute="top" secondItem="QWG-2k-mOR" secondAttribute="bottom" id="RWn-Of-Fyd"/>
-                            <constraint firstItem="XeS-Qv-Op7" firstAttribute="width" secondItem="t0z-3m-860" secondAttribute="width" id="U25-PN-uh3"/>
-                            <constraint firstItem="HwA-UA-U39" firstAttribute="top" secondItem="QWG-2k-mOR" secondAttribute="bottom" constant="48" id="XCM-3U-jKx"/>
-                            <constraint firstItem="DI9-05-syG" firstAttribute="top" secondItem="XeS-Qv-Op7" secondAttribute="bottom" constant="-1" id="Y8l-qd-VLs"/>
-                            <constraint firstItem="t0z-3m-860" firstAttribute="leading" secondItem="XeS-Qv-Op7" secondAttribute="trailing" id="ZwT-2c-hQ6"/>
-                            <constraint firstItem="22Y-6I-QSc" firstAttribute="bottom" secondItem="t0z-3m-860" secondAttribute="bottom" id="cCT-d6-r1f"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="HwA-UA-U39" secondAttribute="trailing" constant="-15" id="fvG-ep-l47"/>
-                            <constraint firstItem="XeS-Qv-Op7" firstAttribute="leading" secondItem="IJ7-IB-4Pj" secondAttribute="leading" id="gIh-Os-Lfy"/>
-                            <constraint firstItem="22Y-6I-QSc" firstAttribute="leading" secondItem="t0z-3m-860" secondAttribute="trailing" constant="-3" id="gV1-95-zXm"/>
                             <constraint firstItem="OkP-WQ-KcI" firstAttribute="top" secondItem="93k-to-ahK" secondAttribute="bottom" id="gmt-Iu-coC"/>
-                            <constraint firstItem="t0z-3m-860" firstAttribute="top" secondItem="QWG-2k-mOR" secondAttribute="bottom" id="k9N-Z1-B2e"/>
-                            <constraint firstItem="HwA-UA-U39" firstAttribute="top" secondItem="yU6-dn-Ncd" secondAttribute="top" id="mvE-dl-ceF"/>
-                            <constraint firstItem="22Y-6I-QSc" firstAttribute="top" secondItem="t0z-3m-860" secondAttribute="top" id="qVR-dM-62V"/>
-                            <constraint firstItem="XeS-Qv-Op7" firstAttribute="top" secondItem="QWG-2k-mOR" secondAttribute="bottom" id="slU-Oa-Y6s"/>
-                            <constraint firstAttribute="trailing" secondItem="22Y-6I-QSc" secondAttribute="trailing" id="uPW-e4-94F"/>
-                            <constraint firstItem="HwA-UA-U39" firstAttribute="leading" secondItem="yU6-dn-Ncd" secondAttribute="trailing" constant="2" id="vhq-I0-ZOc"/>
-                            <constraint firstItem="DI9-05-syG" firstAttribute="centerX" secondItem="XeS-Qv-Op7" secondAttribute="centerX" id="xFO-Jr-YA8"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WYz-IP-cfl"/>
@@ -186,7 +73,7 @@
         <!--View Controller-->
         <scene sceneID="qYd-Tf-rPG">
             <objects>
-                <viewController id="3py-iQ-Vgc" customClass="ViewController" customModule="Blitz3Social" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3py-iQ-Vgc" customClass="ViewController" customModule="Blitz3News" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CKz-3h-Vjc"/>
                         <viewControllerLayoutGuide type="bottom" id="Hy3-4X-ndj"/>
@@ -234,7 +121,7 @@
                                 <rect key="frame" x="40" y="276" width="295" height="315"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellid" rowHeight="60" id="FIV-3x-N1A" customClass="ListCustomTableViewCell" customModule="Blitz3Social" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellid" rowHeight="60" id="FIV-3x-N1A" customClass="ListCustomTableViewCell" customModule="Blitz3News" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="295" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FIV-3x-N1A" id="FDR-3s-DDs">
@@ -324,7 +211,7 @@
         <!--Web View Controller-->
         <scene sceneID="KUb-Fm-vVV">
             <objects>
-                <viewController storyboardIdentifier="webid" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4XO-hs-Yp3" customClass="WebViewController" customModule="Blitz3Social" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="webid" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4XO-hs-Yp3" customClass="WebViewController" customModule="Blitz3News" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ovv-bB-4UN"/>
                         <viewControllerLayoutGuide type="bottom" id="0zu-Wm-AS7"/>
