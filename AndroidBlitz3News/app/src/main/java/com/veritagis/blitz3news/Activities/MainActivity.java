@@ -34,12 +34,15 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.bumptech.glide.Glide;
+import com.facebook.FacebookSdk;
 import com.facebook.share.model.ShareLinkContent;
 import com.facebook.share.model.SharePhoto;
 import com.facebook.share.model.SharePhotoContent;
 import com.facebook.share.widget.ShareDialog;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
+import com.twitter.sdk.android.core.TwitterAuthConfig;
+import com.twitter.sdk.android.core.TwitterCore;
 import com.twitter.sdk.android.tweetcomposer.TweetComposer;
 import com.veritagis.blitz3news.R;
 import com.veritagis.blitz3news.Utils.ActionSheetGroupItem;
@@ -56,6 +59,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import io.fabric.sdk.android.Fabric;
 import pub.devrel.easypermissions.AppSettingsDialog;
 import pub.devrel.easypermissions.EasyPermissions;
 
@@ -84,7 +88,11 @@ public class MainActivity extends Activity implements ConnectivityReceiver.Conne
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
+        TwitterAuthConfig authConfig = new TwitterAuthConfig("consumerKey", "consumerSecret");
+        Fabric.with(this, new TwitterCore(authConfig));
 
+        // Initialize facebook SDK.
+        FacebookSdk.sdkInitialize(getApplicationContext());
         btn_go = findViewById(R.id.btn_go);
         btn_menu = findViewById(R.id.btn_menu);
 
