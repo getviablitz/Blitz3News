@@ -9,17 +9,17 @@
 
     <Button
         android:id="@+id/btn_go"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/media_icons_width_height"
+        android:layout_height="@dimen/media_icons_width_height"
         android:layout_above="@+id/btn_menu"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="@dimen/go_btn_margin_bottom"
         android:background="@drawable/go" />
 
     <Button
         android:id="@+id/btn_menu"
-        android:layout_width="@dimen/menu_height_width"
-        android:layout_height="@dimen/menu_height_width"
+        android:layout_width="@dimen/main_menu_height_width"
+        android:layout_height="@dimen/main_menu_height_width"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_margin="15dp"
