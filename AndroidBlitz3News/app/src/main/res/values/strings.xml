@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Blitz3News</string>
+    <string name="bbc_url">http://www.bbc.com/</string>
+    <string name="foxnews_url">https://www.foxnews.com/</string>
+    <string name="cnn_url">https://edition.cnn.com/</string>
+    <string name="cnbc_url">https://www.cnbc.com/</string>
+    <string name="buzzfeed_url">https://www.buzzfeed.com/</string>
+    <string name="yahoo_news_url">https://www.yahoo.com/news/</string>
+</resources>
