@@ -69,7 +69,7 @@ public class MainActivity extends Activity implements ConnectivityReceiver.Conne
     private Button btn_go, btn_menu;
     private RelativeLayout activity_main;
     boolean isScreenShotCapture = false;
-
+    private ToggleButton toggleSearch;
     private ShareDialog shareDialog;
     private Dialog feedShareDialog;
     private String web_irl1, web_irl2, web_irl3, facebook_post_url;
@@ -104,7 +104,7 @@ public class MainActivity extends Activity implements ConnectivityReceiver.Conne
         btn_menu = findViewById(R.id.btn_menu);
         etInputSearch = findViewById(R.id.idInputSearchKey);
         activity_main = findViewById(R.id.activity_main);
-
+        toggleSearch = findViewById(R.id.idBtnSearch);
         MyApplication.getInstance().setConnectivityListener(this);
         checkConnection();
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -135,6 +135,18 @@ public class MainActivity extends Activity implements ConnectivityReceiver.Conne
             public void onClick(View view) {
                 ActionSheetPopup actionSheetPopup = new ActionSheetPopup(MainActivity.this);
                 actionSheetPopup.show();
+            }
+        });
+
+        toggleSearch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if (b) {
+                    etInputSearch.setVisibility(View.VISIBLE);
+                } else {
+                    etInputSearch.setText("");
+                    etInputSearch.setVisibility(View.GONE);
+                }
             }
         });
 
