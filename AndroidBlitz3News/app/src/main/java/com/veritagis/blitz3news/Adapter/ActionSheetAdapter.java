@@ -67,6 +67,7 @@ public class ActionSheetAdapter extends BaseAdapter {
 
         if (ActionSheetPopup.selectedList.contains(modelNew)) {
             viewHolder.checkbox.setChecked(true);
+            modelNew.setPosition(position);
         } else {
             viewHolder.checkbox.setChecked(false);
         }
@@ -77,6 +78,7 @@ public class ActionSheetAdapter extends BaseAdapter {
                 ActionSheetGroupItem modelNew = mList.get(position);
                 if (b) {
                     if (ActionSheetPopup.selectedList.size() < 3) {
+                        modelNew.setPosition(position);
                         ActionSheetPopup.selectedList.add(modelNew);
                     } else {
                         try {

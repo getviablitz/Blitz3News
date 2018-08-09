@@ -16,6 +16,15 @@
         android:layout_marginBottom="@dimen/go_btn_margin_bottom"
         android:background="@drawable/go" />
 
+    <EditText
+        android:id="@+id/idInputSearchKey"
+        android:hint="Search text"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <Button
         android:id="@+id/btn_menu"
         android:layout_width="@dimen/main_menu_height_width"

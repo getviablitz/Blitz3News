@@ -7,6 +7,12 @@
     <string name="buzzfeed_url">https://www.buzzfeed.com/</string>
     <string name="yahoo_news_url">https://www.yahoo.com/news/</string>
 
+    <string name="bbc_url_search">http://www.bbc.co.uk/search?q=</string>
+    <string name="foxnews_url_sarch"> http://www.foxnews.com/search-results/search?q=</string>
+    <string name="cnn_url_search">http://edition.cnn.com/search/?q=</string>
+    <string name="cnbc_url_search">https://search.cnbc.com/rs/search/view.html?source=CNBC.com&amp;categories=exclude&amp;partnerId=2000&amp;keywords=</string>
+    <string name="buzzfeed_url_search">https://www.buzzfeed.com/search?q=</string>
+    <string name="yahoo_news_url_search">https://search.yahoo.com/search?p=</string>
 
     <string name="google_search_url">https://www.google.com/search?q=</string>
     <string name="youtube_search_url">https://www.youtube.com/results?search_query=</string>
