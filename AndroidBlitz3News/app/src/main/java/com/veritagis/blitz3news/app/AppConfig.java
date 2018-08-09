@@ -3,7 +3,6 @@ package com.veritagis.blitz3news.app;
 import com.veritagis.blitz3news.R;
 import com.veritagis.blitz3news.Utils.MyApplication;
 
-import java.util.ArrayList;
 
 /**
  * Created by LSN-ANDROID2 on 09-08-2018.
