@@ -47,8 +47,6 @@ public class ActionSheetPopup extends Dialog implements View.OnClickListener {
         getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
         getWindow().setDimAmount(0.3f);
         setCanceledOnTouchOutside(false);
-
-        assert ((WindowManager) mContext.getSystemService(Context.WINDOW_SERVICE)) != null;
         assert ((WindowManager) mContext.getSystemService(Context.WINDOW_SERVICE)) != null;
         Display display = ((WindowManager) mContext.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
         int width = display.getWidth();

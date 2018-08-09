@@ -69,12 +69,12 @@ public class MainActivity extends Activity implements ConnectivityReceiver.Conne
     private Button btn_go, btn_menu;
     private RelativeLayout activity_main;
     boolean isScreenShotCapture = false;
-    private ToggleButton toggleSearch;
+
     private ShareDialog shareDialog;
     private Dialog feedShareDialog;
     private String web_irl1, web_irl2, web_irl3, facebook_post_url;
     private ProgressBar mProgressBar;
-    private EditText etInputSearch;
+    private EditText etInputSearch;private ToggleButton toggleSearch;
     private static final int RC_GALLERY_PERM = 124;
     String[] permissionsRequired = new String[]{
             Manifest.permission.READ_EXTERNAL_STORAGE,
@@ -102,9 +102,9 @@ public class MainActivity extends Activity implements ConnectivityReceiver.Conne
         FacebookSdk.sdkInitialize(getApplicationContext());
         btn_go = findViewById(R.id.btn_go);
         btn_menu = findViewById(R.id.btn_menu);
-        etInputSearch = findViewById(R.id.idInputSearchKey);
         activity_main = findViewById(R.id.activity_main);
-        toggleSearch = findViewById(R.id.idBtnSearch);
+        toggleSearch = findViewById(R.id.idBtnSearch);        etInputSearch = findViewById(R.id.idInputSearchKey);
+
         MyApplication.getInstance().setConnectivityListener(this);
         checkConnection();
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
